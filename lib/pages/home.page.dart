@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:widget_alert/widgets/alert.widget.dart';
 
 class HomePage extends StatefulWidget {
-  final Function fn;
-
-  HomePage({required this.fn});
-
   @override
   HomePageState createState() => HomePageState();
 }
